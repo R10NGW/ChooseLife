@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="#FEFCFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"></TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgVideoCover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stats"></ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text= " 2017 - 862,320 abortions were reported \n\n
+2016 - 34% of all pregnancies in yew york were aborted \n\n
+2015 – Unmarried women account for 86% of abortions (CDC)\n\n
+2015 – African American women are 3.5 times more likely to have an abortion than white women (CDC)\n\n
+2014 – approximately 19% of pregnancies in the USA ended in abortion\n\n
+2012 - in new york more black babies were aborted than born. \n\n
+2016 - 106800 of abortions occurred after the first trimester. \n\n
+40% of minors having an operation report that their parents do not know. \n\n
+Less than 1% of abortions are reported because of rape. \n\n
+The majority of abortions are performed because of not being ready to have a child.\n\n
+"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_dark">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text= " "
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text= " "
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+
+    </LinearLayout>
+</ScrollView>

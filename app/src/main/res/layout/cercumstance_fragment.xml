@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/hope"
+    android:alpha=".85"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Most people don't like the idea of abortion. But many of them still think it could be necessary.\n
+Women who are unexpectedly pregnant often face very difficult circumstances. They may struggle financially and feel unable to afford raising a child. They may experience relationship turmoil and lack support from the father and from others. They may have educational and career plans that now seem in jeopardy.\n\n
+Nobody knows a woman's specific situation, argues Planned Parenthood, the nation's leading abortion provider. We're not in her shoes. The group cites polling data showing that 40 percent of Americans believe the morality of abortion depends on the situation.\n\n
+        Thus abortion, many people feel, is sometimes needed for practical reasons—it is needed to bring about some better state of affairs (economically, professionally, emotionally) for pregnant women. Denying them the option of abortion is cruel. Or so the thinking goes.\n\n
+        We should never dismiss or downplay the challenges that pregnant women confront. We should agree that these are serious concerns and that we ought to respond with understanding and compassion. But pragmatic reasons for abortion all have one fundamental problem: They do not justify the killing of valuable human beings.\n\n
+        May a poverty-stricken father take the life of his 10-year-old daughter if she drains the family budget? No. Should a woman drown her toddler after her husband abandons them? Of course not. May a man dispose of his elderly and dependent mother so that he can better pursue his career? The answer is obvious.\n\n
+        If an unborn child is a valuable human being with a right to life—like the 10-year-old, the toddler, and the elderly woman—then tough circumstances don't justify killing her either. Hardship, writes moral philosopher Francis J. Beckwith, does not justify homicide.\n\n
+        So does the unborn child have a right to life? Does she deserve our respect just like everyone else? That's the real issue.\n\n
+        Pregnant women should matter to us. And their children should matter too.\n
+        How, then, ought we respond to the difficulties women often face? Killing isn't the answer. Killing isn't how a humane society solves its problems. We can't make bad circumstances an excuse for encouraging injustice.\n\n
+        Instead, we have to actually address the bad circumstances. We have to support those who need help and provide positive alternatives to abortion.\n\n
+        Our society has the resources to ensure that women, children, and families flourish. Pregnancy care centers, maternity homes, government programs, and other forms of assistance can and do help women deal with the challenges of pregnancy and parenthood. Adoption, moreover, is a loving alternative that enables parents to relinquish responsibility.
+        "
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

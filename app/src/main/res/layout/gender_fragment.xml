@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/manandwomenholdinghands"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some people argue that gender equality requires legalized abortion. After all, the challenges of pregnancy and childbirth fall on women but not on men. Only with access to abortion, then, can women be truly equal and free to determine the course of their lives.\n\n
+This argument does not withstand scrutiny. First, unequal burdens don't justify the killing of innocent human beings. The burdens of caring for five-year-old children, for example, fall disproportionately on the parents of five-year-old children. Laws against killing or abandoning five-year-olds do not affect everyone in the same way—one might even claim that they deprive parents of the same rights, freedoms, and opportunities as non-parents. But clearly they are not wrong.\n
+        Likewise, the challenges of pregnancy fall on women and not men, and a law against killing unborn children by abortion would impact women in a way that it does not impact men. But such a law would not be unjust for that reason. Laws may affect people differently given different circumstances, but that does not mean that they treat people differently. Everyone should be equally prohibited from killing innocent human beings. This prohibition is not gender-specific.\n\n
+        Men and women are equally morally responsible for their offspring, even though this obligation can take different forms (women, by virtue of reproductive biology, uniquely gestate children). Men can more easily run from their parental duties than women, but the solution to this problem is not to authorize the killing of human beings before they are born\n\n
+        The argument from gender equality seems to presuppose that pregnancy is a disability and that pregnant women need surgery (abortion) to become equal to men. This view effectively disparages women and their reproductive powers while elevating men to the paradigm of human sexuality.\n\n
+        Women don't need abortion to achieve social equality, professional success, and personal fulfillment. Why is it that we assume women are incapable of dealing with the adversity of an unwanted pregnancy by any other means than that of destroying life? \n\n
+        Of course, mothers often experience enormous and unfair difficulties. Placing a child for adoption, though, is an ethical and life-affirming way to relinquish responsibility, and pregnancy care centers, government programs, and other forms of assistance enable women in need to meet the challenges of pregnancy and parenthood. But more can and should be done to accommodate the essential role mothers play in our society.\n\n
+        Abortion, however, is a rejection of equal human dignity, not an affirmation of it, because it takes the life of an innocent human person. Legalized abortion excludes an entire class of human beings from the protection of the law by allowing them to be dismembered and killed at the discretion of others. Women will never climb to equality and social empowerment over mounds of dead fetuses.
+        "
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/white">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

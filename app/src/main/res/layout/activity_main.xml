@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentContainer"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text= "CHOOSE LIFE"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:id="@+id/txtTitle"
+        android:layout_marginVertical="80dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/bottomText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginVertical="600dp"
+        android:text="A Pro-Life Information Tool"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp">
+
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/holdingultrasound"
+        android:scaleType="fitCenter"
+        android:id="@+id/imgUltrasound"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/botNavView"
+        android:layout_above="@id/bottomNavigationView"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        android:id="@+id/bottomNavigationView"
+        app:menu="@menu/bottom_navigation"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

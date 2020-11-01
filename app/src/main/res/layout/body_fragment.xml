@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="#FFB6C1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/babymomnoses"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Abortion is justified, many of its defenders argue, because women have a right to control their own bodies. Calling out 'My body, my choice.'\n\n
+
+Some people think that the unborn (the human embryo or fetus) is a mere part of the woman's body. But science, of course, has established that the unborn—though physically dependent on and inside of the mother—is a distinct, self-developing individual with his or her own DNA, brain, arms and legs, etc. Abortion attacks and kills the body of someone else.\n\n
+
+The Sovereign Zone argument \n The 'Sovereign Zone' argument, claims that a woman has an absolute right to do whatever she wants with anything that is inside her body. And the unborn child—even if she is a human person—is currently within that sovereign zone.
+\n But sovereignty cannot be absolute. Consider an analogy: May we do whatever we want with anything that is on our private property? May we attack or kill innocent people who are passing through or seeking refuge? \n\n
+
+The Right to Refuse argument\n
+the 'Right to Refuse' argument It contends that a woman has a right to refuse to let the unborn child use her body to survive. Just as a person is not obligated to donate an organ to save the life of someone else, the pregnant woman is not obligated to provide her uterus (and the sustenance and protection it affords) to her child.\n
+This argument has enormous problems. Abortion, in the vast majority of cases, is not merely the withholding or withdrawing of life support from the unborn child—it is the intentional and active killing of that child, often by dismemberment. This killing violates the child's right to life (the right not to be intentionally killed) and right to bodily integrity. Indeed, if people have a right to bodily integrity and so do not have a duty to donate a kidney, then people in utero have a right not to have their bodily integrity fatally violated through abortion.\n
+Moreover, even if abortion were not intentional killing (i.e., if it were simply a refusal to aid the child by removing her from the womb), abortion would still be wrong because a pregnant woman does have an obligation to allow her baby to live and grow in the womb. Here's why.\n
+First, the father and mother, except in cases of rape, willingly engaged in an activity that caused (and is biologically ordered to) the creation of a new, dependent human being. So they bear responsibility for the resulting child.
+Second, parents have special obligations to their dependent offspring that they do not have to others. Fathers, for example, must pay child support even if they did not intend or desire to become fathers. Parents may not abandon their children or refuse to provide for their needs (though they may relinquish those obligations through adoption).\n
+Third, the purpose of the uterus is to gestate the unborn child—it is where that child belongs. All human beings, during their prenatal stages of development, rely on it for care and protection. The uterus exists for the unborn child rather than for the mother, notes Stephanie Gray. It is reasonable to think that a child has a right to live in her natural environment.\n
+        \nThe right to control one's body does not justify the intentional killing of others. Nor does it nullify our obligations to the youngest and most vulnerable members of the human family.\n
+        The unique nature of pregnancy—the bodily dynamic between an unborn child and her mother—is not, as the argument supposes, a reason to think that killing or neglect is permissible. It is, instead, a reminder that human beings are connected to and dependent on each other.\n
+        "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

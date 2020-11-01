@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.video">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+
+    </TextView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <VideoView
+                android:id="@+id/video_view"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/videotitle"
+                android:id="@+id/imgVideoCover"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingVertical="50dp"
+        android:text= "WARNING VIDEO MAY BE CONSIDERED GRAPHIC"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/para1">
+    </TextView>
+
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:text="Proceed to video">
+
+        </Button>
+
+
+    </LinearLayout>
+

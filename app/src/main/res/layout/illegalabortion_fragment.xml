@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:alpha=".75"
+    android:background="@drawable/cryingbb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Today, abortion defenders warn that bans or even modest restrictions on abortion could lead to more deaths. Legal and accessible abortion, they say, ensures the health and safety of women.\n\n
+First, if abortion is unjust, then the dangers of choosing to participate in the injustice are not a very good reason to make it legal. Consider any number of illegal acts (e.g., drug dealing, robbery, kidnapping). Engaging in these acts is often very risky. But we would never legalize those crimes in order to make them easier to commit.\n\n
+Indeed, no one would say, Society should authorize the killing of children so that parents don't have to jeopardize their own safety when they decide to get rid of their children. Children are valuable human beings who have human rights. They deserve protection under the law. If human beings in utero are also valuable members of the human family, then they too deserve protection, regardless of the risks some people might assume by trying to kill them.\n\n
+Second, empirical evidence shows that laws against abortion do not have terrible consequences.\n
+there have been as many maternal deaths in the United States annually from legal abortions (estimates range from 15 to 35 per year) as there were maternal deaths from illegal abortions in the years immediately before Roe v. Wade was decided.\n\n
+Those who offer the unsafe abortion argument frequently appeal to examples outside of the United States. They point to some countries (such as many in Africa) that prohibit abortion and experience high maternal mortality rates and to other countries (such as most in Europe and North America) that permit abortion and boast low mortality. They infer from this correlation that laws against abortion cause a high incidence of maternal death. But that's a fallacy.\n\n
+        The highest-mortality nations are developing countries with poor maternal health care; the lowest-mortality nations are developed countries with advanced maternal health care. This is true irrespective of abortion policy.\n\n
+        Of course, we should never minimize the horror of any pregnant woman's death from an abortion. Nor, however, should we ignore the deaths of nearly one million unborn children in the U.S. each year. There's no such thing as a safe abortion.\n\n
+        We can protect the right to life of all human beings, including unborn children, and safeguard the health of women at the same time. That's what a just and compassionate society ought to do.
+        "
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

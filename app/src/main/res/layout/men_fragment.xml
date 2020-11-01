@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="#D3D3D3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/manholdingbabyblackandwhite"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Men don't have a uterus. They can't get pregnant. They don't fully understand what it's like to experience pregnancy, childbirth, or abortion. All of that is true.\n\n
+In the case of abortion, the pro-life position is either true or false irrespective of the gender of a person who holds it, and the pro-life argument is either sound or unsound irrespective of the gender of a person who advocates it. After all, millions of women, alongside millions of men, hold the pro-life view or make the pro-life argument. To determine whether or not that view is true, we must assess it on its own merits, not dismiss it because of a particular person's traits./n/n
+We can know the truth (or offer sound arguments in support) of a proposition about something without direct experience of that something.\n\n
+We can know, for example, that spousal abuse is wrong even if we aren't discontented husbands. We can know that infant abandonment is bad even if we can't relate to the desperation of a teenage mother. We can offer cogent arguments for our views about social welfare policies even if we aren't welfare recipients ourselves.\n\n
+This doesn't mean experience can't be important and informative. And there's a sort of experiential knowledge that we can't possess without the relevant experience. Just as civilians don't know what it feels like to engage in military combat, men don't know what it feels like to undergo pregnancy or childbirth or abortion. Yet claims about the morality of war and abortion are not matters of experiential knowledge but of propositional knowledge. We can determine whether they are true or false using evidence and logic. \n\n
+Countless women in the United States and around the world embrace this argument—including women who have personally experienced unexpected pregnancy, childbirth, abortion, the placement of children for adoption, poverty, abuse, and pregnancy resulting from sexual assault. And pro-life men embrace the very same argument. The argument is accessible and knowable by people of all backgrounds. \n\n
+What matters is whether or not it's sound. What matters is whether or not the pro-life position is true. \n
+If it is, then men shouldn't be silent. They should join with pro-life women to advocate and defend the rights of children in utero, to support their mothers, and to help bring an end to the injustice of abortion.        "
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

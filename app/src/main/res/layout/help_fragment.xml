@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:alpha=".75"
+    android:background="@drawable/blackbaby"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp">   </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="There are several ways to help right now!"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak! Don’t be afraid to have difficult conversations. So many people are uneducated on the severity of the matter. Not everyone will agree with us, that is part of what makes us human. But like me there are many out there who have not taken the time to consider if an unborn child is alive and if it deserves protecting. We need to get people thinking. "
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donations: There are several pro-life organizations that could benefit from "
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elections: Make sure we are voting for officials who have pro-life agendas. Every democratic party in congress voted against a bill that would require abortion clinics to alert a hospital if a baby survives an abortion. Not all democratic candidates are this extreme, but we need to make sure we are putting the people in power who can protect the helpless. "
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prayer: If you are religious take this to your heavily father. Pray for mothers considering adoption and for hearts to be softened. You will do more good then you will see."
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meeting groups and protests: Keep an eye out in your area for pro-life support groups and potential protest opportunities."
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

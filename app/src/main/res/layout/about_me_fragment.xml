@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/ryanandapril"
+        android:scaleType="fitCenter"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text= "My name is Ryan, I believe, and am extremely passionate that unborn babies are still babies and they need our help. It is my goal to provide information that supports this and provide reliable sources to support that information. "
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/para1">
+        </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text= "My passion for this is somewhat new. My wife and I had our first child 5 years ago. She had an extremely hard pregnancy suffering from hyperemesis. This caused her to be on home hospital care for the majority of her pregnancy. A few years later we started looking into adoption. That is also the time I started to actually think about the morality of abortions. "
+        android:textSize="15dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/para2">
+    </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text= "Before this experience, I probably would have considered myself pro-choice, because I didn't consider an unborn baby to be alive. I honestly didn't put much thought into the matter. When I heard about third-trimester babies being aborted that I would have loved to bring into my home and love as my own, that is when I started considering when does a baby become a baby? After researching the only logical conclusion I found is the moment of conception. "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/para3">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text= "We now have adopted a beautiful boy who at one point was in a planned parenthood parking lot, before the birth mother decided to give him up for adoption. We are planning on adopting another child in a few years. "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/para4">
+        </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></TextView>
+</LinearLayout>
+</ScrollView>

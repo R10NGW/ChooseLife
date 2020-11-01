@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/cryingwomen"
+    android:layout_width="match_parent"
+    android:alpha=".85"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Although rape and incest account for less than one percent of Minnesota abortions, these cases are very real. Rape is a truly horrific crime, and the crime is made even worse when the woman then becomes a pregnant mother against her will. Abortion, however, compounds the violence of rape by taking the life of a vulnerable human being who has done nothing wrong. Both the mother and child deserve support and care in the midst of this very painful and unfair situation.\n\n
+Rape is an evil crime that should never happen. Abortion is also evil and should never happen. Abortion after rape is fighting evil with more evil. Loving a child or placing it up for adoption and blessing the lives of others is turning a bad thing into something psostive.
+"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

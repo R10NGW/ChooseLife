@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/babyhand"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cs3270a7_ryanmcclain.Why">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text= "People who are passionate about pro-life do so from a place of love. We sincerely believe that these babies are not only alive but are pure and helpless. No one would be ok with millions of born babies getting terminated.  "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/Whypara1">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text= "I believe the majority of people have not taken the time to think about when life becomes a life. It took me 25 years before I thought about it. Abortions have become normal. Many consider it a form of birth control. The casual why people view abortion is exactly why people aren’t taking the time to process the morality of it. "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/Whypara2">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text= "If I and others are correct then millions of babies have been murdered this generation, and more are being murdered every day. For those that believe we need to find a way to help. For those that haven’t made up there mind, its time to decide. "
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/Whypara3">
+    </TextView>
+
+
+</LinearLayout>

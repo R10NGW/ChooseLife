@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="#FEFCFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">   </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="221dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/thankyou"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="WOMEN"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://www.feministsforlife.org/herstory"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="OPERATIONS"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://www.ucsfhealth.org/treatments/surgical-abortion-first-trimester\n
+https://www.abortionprocedures.com/?__hstc=61024563.116e2fa1c5aa2022de2e2b4d88576192.1560367083867.1563388734621.1563391782932.6&amp;__hssc=61024563.1.1563391782932&amp;__hsfp=2085519510\n
+https://www.betterhealth.vic.gov.au/health/healthyliving/abortion-procedures-surgical#:~:text=into%20your%20cervix.-,Method%20of%20surgical%20abortion,12%20weeks%20pregnant%20or%20less.)
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="SCIENCE"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="http://www.bbc.co.uk/ethics/abortion/child/alive_1.shtml \n
+https://www.mccl.org/post/2017/12/20/the-unborn-is-a-human-being-what-science-tells-us-about-unborn-children \n
+https://www.google.com/search?q=definition+of+life&amp;rlz=1C1CHBF_enUS906US906&amp;oq=definition+of+life&amp;aqs=chrome..69i57j0l7.2123j1j1&amp;sourceid=chrome&amp;ie=UTF-8 \n
+https://www.livescience.com/54774-fetal-pain-anesthesia.html
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="STATS"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://www.cdc.gov/reproductivehealth/data_stats/abortion.htm\n
+https://www.nytimes.com/2019/07/06/us/black-abortion-missouri.html\n
+https://abort73.com/abortion_facts/us_abortion_statistics/\n
+https://www.guttmacher.org/fact-sheet/state-facts-about-abortion\n
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="LAWS"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://en.wikipedia.org/wiki/Roe_v._Wade#:~:text=Wade%20is%20overturned%2C%20with%20the,abortions%20on%20the%20state%20level.&amp;text=Additionally%2C%20many%20states%20did%20not,of%20abortion%20if%20Roe%20v.\n
+https://www.plannedparenthoodaction.org/abortion-access-tool/ID
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="PLANNED PARENTHOOOD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:autoLink="web"
+        android:layout_height="wrap_content"
+        android:text="https://www.plannedparenthood.org/files/8013/9611/6937/Opposition_Claims_About_Margaret_Sanger.pdf\n
+https://www.washingtonpost.com/history/2020/07/21/margaret-sanger-planned-parenthood-eugenics/\n
+https://en.wikipedia.org/wiki/Margaret_Sanger\n
+https://www.centerformedicalprogress.org/2020/05/planned-parenthood-testimony-on-selling-baby-parts-unsealed-new-videos-released/\n
+http://www.centerformedicalprogress.org/cmp/investigative-footage/
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DISSCUSION POINTS"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:autoLink="web"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DEVELOPMENT"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:autoLink="web"
+        android:layout_height="wrap_content"
+        android:text="https://www.babycenter.com/fetal-development-week-by-week\n
+https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/prenatal-care/art-20045302
+"
+        android:padding="5dp"
+        android:textSize="11dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">   </TextView>
+
+
+</LinearLayout>
+</ScrollView>

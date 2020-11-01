@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:background="#D3D3D3"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">   </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="221dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/plannedp"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content">
+        </ImageView>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Planned Parenthood is the go-to abortion clinic. It has a very questionable past and has recently been caught doing criminal and immoral actions."
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/black">
+    </TextView>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Margaret Sanger was the founder of planned parenthood in 1916. She was a well-known racist and eugenicist. She created The Negro Project which created an increase of abortion clinics in majority black neighborhoods. This uneven distribution still exists today. She was known to meet with members of the Ku Klux Klan, but was never found to be a member herself. "
+        android:textColor="@android:color/black"
+        android:textSize="15dp"></TextView>
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="257dp"
+        android:layout_gravity="right"
+        android:scaleType="fitCenter"
+        android:src="@drawable/margaret"></ImageView>
+</FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Planned Parenthood recently removed her name from many of their buildings. "
+        android:textColor="@android:color/black"
+        android:textSize="15dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="In 2015 videos were released of planned parenthood officials negotiating the pickup and payment of fetus remains while attending a party. The buyer was trying to convince an abortionist to provide remains that were more fully intact, because the stem cells are more salvageable that way. Other videos show them agreeing to change procedures to get more salvageable parts. These videos are linked in the sources section. "
+        android:textColor="@android:color/black"
+        android:textSize="15dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Several reports from previous employees and volunteers say they have seen the upselling of abortion. Convincing girls who were on the fence about it to do it today for a cheaper rate. At large conferences leaders would encourage more abortions to increase profits."
+        android:textColor="@android:color/black"
+        android:textSize="15dp"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp">   </TextView>
+
+
+</LinearLayout>
+</ScrollView>

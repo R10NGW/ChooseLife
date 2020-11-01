@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:alpha=".85"
+    android:layout_width="match_parent"
+    android:background="@drawable/babycloseup"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Topics"
+    android:padding="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOPICS"
+        android:textStyle="bold"
+        android:paddingVertical="15dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"></TextView>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/buttonWhy"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Why it is important"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="15dp"
+
+        ></Button>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonTemp"
+        android:text="Women"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        ></Button>
+
+
+</FrameLayout>
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonOperation"
+        android:text="Operations"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="16dp"
+
+        ></Button>
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonScience"
+        android:layout_gravity="right"
+        android:text="Science"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="20dp"
+
+        ></Button>
+
+
+
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="125dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_height="60dp"
+            android:id="@+id/buttonStats"
+            android:text="Statistics"
+            android:textSize="18dp"
+
+            ></Button>
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonLaws"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="Laws"
+            android:textSize="20dp"
+
+            ></Button>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonPlannedP"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="Planned Parent Hood"
+        android:textSize="15dp"
+
+        ></Button>
+
+        <Button
+            android:layout_width="125dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_height="60dp"
+            android:id="@+id/buttonDebatePoints"
+            android:text="Discussion Points"
+            android:layout_gravity="right"
+            android:textSize="17dp"
+            ></Button>
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonHowToHelp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="How to Help"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+        ></Button>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonDevelopment"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="development chart"
+            android:textSize="14dp"
+            ></Button>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonVideo"
+            android:text="video of obortion"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="15dp"
+            ></Button>
+
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:id="@+id/buttonSources"
+            android:layout_gravity="right"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="Sources"
+            android:textSize="16dp"
+            ></Button>
+    </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:background="#F0FFFF"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/womenkissingbaby"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Women have more power than men will ever have. The ability to bring life into this world is miraculous. My wife has a saying “A man brings a cup of sugar and the women bakes a three-tier cake with it.” "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="The original feminist foremothers opposed abortion and sought to fix the root cause that drove women to abortion. The new era of feminist are offended by pro-life arguments and view it has something taking away their power or choice. Women can make choices prior to getting pregnant to help prevent the pain of abortion. Contraceptives and birth control can greatly reduce the chances of getting pregnant. Abstinence until you are ready for the potential of children is a sure way to avoid unplanned pregnancy. This is unconventional today, but many still hold to this standard and its something to consider. "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="I do not think it is fair so much pressure is put on women, men will never understand the struggle of carrying a child. Good men will be there to support, but will still never know the sacrifice it takes to bring life into this world.\n\n Thank You! Be Brave! Do not give up your power! "
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

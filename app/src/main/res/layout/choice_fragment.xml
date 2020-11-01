@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:background="@drawable/babypalmtree"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We may do many things, but not everything. We have a right to choose what to eat for breakfast, and where to live, and how to spend our time. We don't have the right to choose to harm people or violate their human rights. We don't have the right to kill innocent human beings.
+\nIf that's what abortion does, then we don't have a right to abortion—and the government ought to protect against it as a matter of justice.
+\n\n
+Defenders of abortion often appeal to a more specific kind of freedom—bodily freedom. Pregnant women, they say, have a right to decide what happens inside their own bodies.\n
+Bodily autonomy is important, but that autonomy must also respect the bodies of others. That's why we don’t think pregnant women should take substances that cause birth defects. Someone else's body is at stake.\n
+If unborn children are valuable human beings, then harming them by causing birth defects is wrong. And killing them through abortion is even worse.
+\n\n
+Another autonomy argument contends that pregnant women should have the freedom to decline to provide bodily support to their unborn children. After all, we typically aren't required to provide assistance to anyone else.\n
+\n
+But parents do seem to bear responsibility for supporting their own children. And, in any case, abortion isn’t like declining to provide help. Abortion is intentional killing, and it's usually an active attack on the bodily integrity of that human being, often through a brutal process of dismemberment.\n\n
+\n
+There is a tremendous sadness and loneliness in the cry 'A woman's right to choose,' No one wants an abortion as she wants an ice-cream cone or a Porsche. She wants an abortion as an animal, caught in a trap, wants to gnaw off its own leg.
+\n
+That's not freedom. Freedom is found when—through practical support and positive alternatives—a woman never feels like abortion is her only choice.
+\n\n
+freedom, in its richest sense, is consistent with (and essential to) the flourishing of everyone. It doesn't dehumanize other human beings. It doesn't violate their fundamental rights. It recognizes that all of us matter.
+
+"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

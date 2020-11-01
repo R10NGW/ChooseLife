@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:background="@drawable/babygrowth"
+    android:alpha=".85"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="FETAL DEVELOPMENT"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/week1234"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weeks 3-6 The sperm and egg become fertilized, the placenta gets ready to hold the fetus, and the mother’s hormones start to increase. During week 5 the baby’s heart and circulatory system begin to form. In week 6 the baby’s brain and spinal cord start to form. The baby’s heart starts beating. "
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weeks 7 and 8 The baby’s head develops starting to form nostrils and retinas. The baby will be about half an inch at this point.
+\nWeeks 9-12 The baby’s toes appear, elbows start to bend, and genitals form.
+\nWeeks 13-20 The first trimester ends and brain activity starts. At week 13 the baby starts to move his facial muscles, sucks his thumb, and moves his limbs. After week 15 It may even start kicking hard enough for the mother to feel. The kidneys also are working and the baby’s senses are working giving him the ability to feel, smell, hear, and see."
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/week78910"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weeks 20-30 the baby continues to grow in size and appears like a small newborn. The skin becomes thicker and less transparent, the bones become stronger, lungs prepare to function outside of the womb. "
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/week3840"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="36 weeks he will gain about an ounce of weight every day until it is born around 40 weeks.  "
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+    </LinearLayout>
+</ScrollView>

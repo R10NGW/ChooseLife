@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"></TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="221dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/abortionpreformed"
+                android:id="@+id/imgVideoCover"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content">
+            </ImageView>
+        </FrameLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="right"
+        android:textColor="@android:color/black"
+        android:text="There are several types of abortion operations that can be performed. \n\n
+The Abortion Pill: The medical name is Mifepristone (RU 486), it blocks the flow of progesterone which is a hormone that works to sustain the pregnancy."
+        android:textSize="15dp"></TextView>
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="173dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pill"></ImageView>
+</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=" This prevents the baby from getting any nourishment from the mother forcing a miscarriage. The mother can expect heavy bleeding for weeks after, vomiting, dizziness, diarrhea, etc. Eventually, the mother will birth the baby out as part of the bleeding. This is only done in the first trimester. Normally 6-8 weeks. "        android:textColor="@android:color/black">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text= "Dilation and Evacuation:  This is a surgery where the abortionist dilates the mother’s cervix to gain access to the uterus. A suction catheter is then inserted into the uterus to remove the amniotic fluid. A sopher clamp (surgical instrument with rows of sharp teeth) is then inserted to tear the baby apart. The abortionist will then scrape the remains out with a curette. The baby is then reassembled in a separate room to make sure the abortionist didn’t leave any body parts in the uterus.  This is performed during the second trimester."
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Aspiration: This is a surgery where the abortionist dilates the mother’s cervix to gain access to the uterus. A suction catheter is then inserted into the uterus to vacuum to remove the baby. He will then use a curette to remove any other remaining bodyparts. This is performed in the first trimester."
+        android:textColor="@android:color/black"
+        android:textSize="15dp"></TextView>
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="178dp"
+        android:layout_gravity="right"
+        android:scaleType="fitCenter"
+        android:src="@drawable/clamp"></ImageView>
+</FrameLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text= "Induction: This process takes 3-4 days, The abortionist will inject chemicals into the mother’s abdomen or vagina in order to induce cardiac arrest of the unborn child. Normally resulting in death. Once the mother’s cervix dilates, she will be given labor-inducing drugs and will give birth to her dead baby. If the child is born and is alive the abortionist is not required to provide for it and in many states is not required to alert a hospital. Because of this they normally don’t survive for long."
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="These procedures are all potentially dangerous, and can have lasting effects, in rare cases it has lead to death of the mother. \n\n"
+            android:textSize="15dp"
+            android:textColor="@android:color/black">
+        </TextView>
+
+
+    </LinearLayout>
+</ScrollView>

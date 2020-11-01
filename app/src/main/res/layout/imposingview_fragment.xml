@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:alpha=".85"
+    android:background="@drawable/babyholdinghand"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.cs3270a7_ryanmcclain.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First, those who hold the personally pro-life view may not take very seriously the idea that abortion is wrong. They may, for example, see unborn children as less valuable than older human beings. This might make abortion slightly wrong but not wrong enough to warrant government interference.\n
+But that isn't the pro-life position. The pro-life position holds that all human beings are morally equal by virtue of their shared humanity. It doesn't divide humanity into those who matter and those who matter a little or not at all. That's what the standard pro-choice position does.\n\n
+Another reason people may not take abortion seriously is that they treat it as a matter of personal preference. Abortion is wrong for them, maybe, but not necessarily wrong for others.\n
+But the pro-life position isn't that we don't like abortion or simply wouldn't make that choice ourselves. It's that abortion is actually wrong, whether we like it or not. No one says, I'm personally against sex trafficking, but that's just my own view. I can't push it on everyone else. \n
+Slavery is another good example of this. At the time some saw nothing wrong with the enslavement of another person, while others did and chose not to take part in it. I'm sure there were people then who said I don't condone slavery but still didnt want the government to get involved. \n\n
+
+Second, those who hold the personally pro-life position may do so because they don't appreciate the proper role of government or law in the context of abortion. Abortion is seriously and objectively wrong, they think, but it should be allowed as a matter of public policy.\n
+        It's true that countless unethical activities (e.g., lying) aren't necessarily illegal. The government shouldn't always try to stop bad things from happening.\n
+        But one role government should play—a role that seems uncontroversial—is to safeguard basic human rights and, in particular, prevent lethal violence against the innocent. \n\n
+        The pro-life position is that abortion is a violation of basic human rights. It's violence against innocent human beings. If that position is true, then abortion is precisely the kind of act that ought to be legally prohibited. It doesn't matter if you're a socialist, a progressive, a conservative, or a hard-core libertarian. People of all political stripes (except, presumably, anarchists) agree that the law, whatever else it should or should not do, ought to at least protect people from unjust killing.\n\n
+        The pro-life position, then, can't just be personal. It is inherently public.\n
+        It holds that unborn children have a right to life and that abortion is a breach of justice. Rights are entitlements. They demand the respect of others. Justice is giving people their due and treating them how they deserve to be treated.
+        "
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white">
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp">   </TextView>
+
+
+    </LinearLayout>
+</ScrollView>
